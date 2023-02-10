@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(44 36 42);
+}
+
+.container {
+  width: 80vh;
+  height: auto;
+  background: white;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+
+.search-box {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-search {
+  padding: 5px;
+  font-size: 20px;
+  border: 1.9px solid rgb(44 36 42);
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.search-btn {
+  padding: 0 15px;
+  border: none;
+  background: rgb(44 36 42);
+  color: white;
+  margin: 0 4px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.city-name {
+  text-align: center;
+  padding: 10px;
+}
+
+.img {
+  display: block;
+  margin: 10px auto;
+}
+.main {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.temp {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.ee {
+  padding: 20px;
+  font-size: 12px;
+  color: red;
+}
+
+.named {
+  padding: 10px;
+}
