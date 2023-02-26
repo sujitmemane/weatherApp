@@ -14,4 +14,4 @@ I have created a weatehr app using the openweathermap API.
 
 - JavaScript
 
--Openweather Api
+- Openweather Api
